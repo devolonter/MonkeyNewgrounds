@@ -1,0 +1,29 @@
+Newgrounds Module for Monkey
+----------------------------
+
+Author: Felipe Alfonso.
+
+This is a very simple module you can use on your games coded on monkey.
+
+The list of Functions it has:
+Connect:Void(appId:String, encKey:String) ' Connects to Newgrounds.
+ShowScoreBoard:Void(sbName:String, x:Float, y:Float) ' Shows a Score board.
+UnlockMedal:Void(medalName:String) ' Unlocks a medal.
+DisableMedalPopup:Void() = ' This Disables the medal popup.
+EnableMedalPopup:Void(x:Float, y:Float) ' Enables medal popup. Set position to where you want the medal popup.
+PostScore:Void(sbName:String, score:Float) ' Post a score to Newgrounds score board.
+HideScoreBoard:Void() ' Hides the score board.
+AddFlashAd:Void(x:Float, y:Float) ' You can add a Newgrounds adevertising
+HideFlashAd:Void()  ' Hides the adevertising.
+AdWidth:Float() ' Advert. Width
+AdHeight:Float() ' Advert. Height
+ScoreWidth:Float() ' Score Board Width.
+ScoreHeight:Float()  ' Score Board Height. 
+MedalWidth:Float() ' Medal Popup Width.
+MedalHeight:Float() ' Medal Popup Height.
+GetUserName:String() ' Get the current username, if it's not logged it returns Guest.
+IsMedalUnlocked:Bool(medalName:String) ' Returns TRUE if the medal is unlocked.
+IsUser:Bool() ' Returns True if it's a logged user.
+
+You can try my game that uses this module:
+http://www.newgrounds.com/portal/view/600485
