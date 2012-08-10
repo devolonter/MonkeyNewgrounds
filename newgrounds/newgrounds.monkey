@@ -27,4 +27,6 @@ Class Newgrounds
 	Function GetUserName:String() = "Ng.GetUserName"
 	Function IsMedalUnlocked:Bool(medalName:String) = "Ng.IsMedalUnlocked"
 	Function IsUser:Bool() = "Ng.IsUser"
+	Function IsConnected:Bool() = "Ng.IsConnected"
+	Function AdsApproved:Bool() = "Ng.AdsApproved"
 End

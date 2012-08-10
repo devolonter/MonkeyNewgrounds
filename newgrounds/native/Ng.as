@@ -15,6 +15,16 @@
 			API.connect(game, apid, enckey);
 		}
 		
+		public static function IsConnected():Boolean
+		{
+			return API.connected;
+		}
+		
+		public static function AdsApproved():Boolean
+		{
+			return API.adsApproved;
+		}
+		
 		public static function AddFlashAd(_x:Number,_y:Number):void
 		{
 			ad.x = _x;
