@@ -1,6 +1,6 @@
 
 '** Newgrounds Module
-'** Author: Felipe Alfonso, Arthur Bkmullin
+'** Author: Felipe Alfonso, Arthur Bikmullin
 '** Web: http://shin.cl/
 
 #If TARGET="flash"

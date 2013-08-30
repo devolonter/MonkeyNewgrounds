@@ -1,6 +1,6 @@
 /**
  * Newgrounds module for Monkey.
- * @author Felipe Alfonso, Arthur Bkmullin
+ * @author Felipe Alfonso, Arthur Bikmullin
  */
 import com.newgrounds.*;
 import com.newgrounds.components.*;
